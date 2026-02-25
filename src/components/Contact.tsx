@@ -1,5 +1,5 @@
 import React from 'react';
-import { Linkedin, Github, ExternalLink, ShieldCheck } from 'lucide-react';
+import { Linkedin, Github, ShieldCheck } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Contact: React.FC = () => {
