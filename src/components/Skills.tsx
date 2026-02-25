@@ -34,7 +34,8 @@ const skills: Skill[] = [
   
   { name: 'Cisco Networking', category: 'Redes e IoT' },
   { name: 'Hardware Sensors', category: 'Redes e IoT' },
-
+  { name: 'Cisco CCNA: Redes', category: 'Redes e IoT' },
+  
     { name: 'Seguridad Defensiva', category: 'Sistemas & DevOps' },
     { name: 'Cifrado de Datos', category: 'Sistemas & DevOps' },
     { name: 'Microsoft Certified (In Progress)', category: 'Sistemas & DevOps' },
