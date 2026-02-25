@@ -6,7 +6,7 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-  // Lenguajes
+  
   { name: 'Python', category: 'Lenguajes' },
   { name: 'Java', category: 'Lenguajes' },
   { name: 'C#', category: 'Lenguajes' },
@@ -14,27 +14,31 @@ const skills: Skill[] = [
   { name: 'JavaScript', category: 'Lenguajes' },
   { name: 'TypeScript', category: 'Lenguajes' },
   { name: 'Dart', category: 'Lenguajes' },
-  
-  // Backend & DB
+
   { name: 'Node.js', category: 'Backend' },
   { name: 'Django', category: 'Backend' },
   { name: 'PostgreSQL', category: 'Backend' },
   { name: 'MariaDB (XAMPP)', category: 'Backend' },
   
-  // Frontend
+  
   { name: 'React', category: 'Frontend' },
   { name: 'HTML5/CSS3', category: 'Frontend' },
   { name: 'Tailwind CSS', category: 'Frontend' },
   { name: 'Android', category: 'Frontend' },
 
-  // Sistemas & DevOps
+  
   { name: 'Kali Linux', category: 'Sistemas & DevOps' },
   { name: 'Docker', category: 'Sistemas & DevOps' },
   { name: 'AWS', category: 'Sistemas & DevOps' },
 
-  // Redes e IoT
+  
   { name: 'Cisco Networking', category: 'Redes e IoT' },
   { name: 'Hardware Sensors', category: 'Redes e IoT' },
+
+    { name: 'Seguridad Defensiva', category: 'Sistemas & DevOps' },
+    { name: 'Cifrado de Datos', category: 'Sistemas & DevOps' },
+    { name: 'Microsoft Certified (In Progress)', category: 'Sistemas & DevOps' },
+    { name: 'Arquitectura de Software', category: 'Lenguajes' },
 ];
 
 const categories = Array.from(new Set(skills.map(s => s.category)));
