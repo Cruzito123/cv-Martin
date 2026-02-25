@@ -1,11 +1,18 @@
-function App() {
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero'; // Recuerda renombrar Hero.jsx a Hero.tsx
+import Projects from './components/Projects';
+
+const App: React.FC = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen">
-      <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition-all shadow-lg shadow-blue-500/30">
-        ¡Tailwind funcionando! 🚀
-      </button>
+    <div className="min-h-screen bg-slate-950">
+      <Navbar />
+      <main>
+        <Hero />
+        <Projects />
+      </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
